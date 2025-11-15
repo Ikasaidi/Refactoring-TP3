@@ -1,3 +1,5 @@
+package src.Entity;
+
 public class CartItem {
     private Item item;
     private boolean isTrio;
@@ -39,33 +41,14 @@ public class CartItem {
     public Item getItem() {
         return item;
     }
-
-    public void setItem(Item item) {
-        this.item = item;
-    }
-
     public boolean isTrio() {
         return isTrio;
     }
-
-    public void setTrio(boolean trio) {
-        isTrio = trio;
-    }
-
     public Item getTrioSnack() {
         return trioSnack;
     }
-
-    public void setTrioSnack(Item trioSnack) {
-        this.trioSnack = trioSnack;
-    }
-
     public Item getTrioDrink() {
         return trioDrink;
-    }
-
-    public void setTrioDrink(Item trioDrink) {
-        this.trioDrink = trioDrink;
     }
 }
 
